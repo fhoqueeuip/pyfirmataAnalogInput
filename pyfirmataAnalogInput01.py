@@ -12,9 +12,9 @@
 #==============================================================#
 
 import pyfirmata
-import csv
+
 import time
-import datetime
+
 
 
 
@@ -45,4 +45,4 @@ while True:
     lecture = analogIn0.read() #se Requiere para las dos opciones
     print(lecture)
     print(type(lecture)) #los valores optenidos son de la clase float
-  time.sleep(0.5)
+    time.sleep(0.5)
